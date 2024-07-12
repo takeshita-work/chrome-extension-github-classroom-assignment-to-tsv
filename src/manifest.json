@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "GHCA2tsv",
+    "version": "1.0",
+    "description": "GitHub Classroom Assignment convert tsv",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+        "http://*/",
+        "https://*/"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
